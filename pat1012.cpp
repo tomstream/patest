@@ -74,6 +74,7 @@ int main()
         }
         if( a % 5 == 3)
         {
+            if(B4!=0)
             A4 += a ;B4++;
         }
         if( a % 5 == 4)
@@ -83,7 +84,7 @@ int main()
     }
     print(A1,B1);print(A2, B2);print(A3, B3);
     
-    if(B4)printf("%0.1f ",double(A4)/B4);
+    if(B4>1)printf("%0.1f ",double(A4)/(B4-1));
     else cout << "N ";
     if(B5)cout << A5 ;
     else cout << "N";
