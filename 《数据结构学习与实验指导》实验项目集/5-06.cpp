@@ -1,5 +1,6 @@
 /*
  5-06. 航空公司VIP客户查询（25）
+ Two of the testcases are passed because the RAM is over limit.
  */
 
 #include <iostream>
